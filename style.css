@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000;
+    background-image: url('img/bckrnd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-w {
+    color:#fff;
+}
+
+.main {
+    height: 100vh;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.description {
+    text-align: left;
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.prices {
+    margin: 10px;
+}
+
+.icon-coins {
+    height: 12px;
+}
+
+.icon-save {
+    height: 14px;
+}
+
+.customer-data {
+    padding: 10px 0;
+}
+
+input {
+    border-radius: 5px;
+    border: 3px solid #FFD700;
+    outline: none;
+    margin-top: 15px;
+    padding: 7px;
+}
+
+.btn {
+    padding: 10px 35px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #FFD700;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #FFD700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #252525;
+    color: #FFD700;
+
+}
+
+.price-table {
+    font-weight: 700;
+    font-size: 18px;
+    border:1px solid #fff;
+    border-collapse: collapse;
+    color:#fff;
+}
+
+td {
+    border:1px solid #fff;
+    padding: 5px 10px;
+}
+
+.gold-report {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    }
+
+.customer-result {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.additional {
+    display: flex;
+    padding-top: 10px;
+}
+
+.add-info {
+    display: block;
+    margin: 0 10px;
+}
+
+.decisions {
+    display: none;
+    margin-top: 30px;
+    padding: 30px 20px;
+    background-color:rgba(107, 107, 107, 0.5);
+    border-radius: 30px;
+}
+
+.open {
+    display: block;
+}
+
+.decision-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-no {
+    padding: 10px 35px;
+    border-radius: 30px;
+    outline: none;
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #FFD700;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.btn-no:hover {
+    background-color: #efefef;
+    color: #252525;
+}
+
+.btn-yes {
+    margin-right: 20px;
+}
+
+.modal {
+    display: none;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100vh;
+    z-index:1000;
+    overflow-y:auto;
+    background:rgba(0,0,0,0.5);
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
+}
+
+.modal-info {
+    min-height: 100px;
+    max-height: 300px;
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 30px;
+    background: #000;
+    position: relative;
+}
+
+.modal-img {
+    display: block;
+    margin: 20px auto;
+    height: 130px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border:0;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-info-text {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 10%;
+}
+
+.open-modal {
+    display: flex;
+}
+

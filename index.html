@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy unique number</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="color-w">You can generate your own unique number on the tank</h1>
+        <p class="description color-w">
+            You should enter the amount of gold, which you want to spend on it. In result you will see the max number, that you can get on your amount.<br>
+            Max length your number is 9 symbols.
+        </p>
+        <div class="price-list">
+            <p class="color-w">Price List:</p>
+
+            <div class="prices">
+                <table class="price-table">
+
+                </table>
+            </div>
+
+        </div>
+
+        <div class="customer-data">
+            <p class="color-w">Please, enter your amount of Gold:</p>
+            <input id="gold-amount" placeholder="Your gold">
+        </div>
+
+        <button class="btn btn-number">Create number</button>
+
+        <div class="gold-report">
+            <p class="customer-result color-w">_ _ _ _ _ _ _ _ _ _ _</p>
+            
+            <div class="additional">
+                <p class="add-info color-w">You spent: <span class="cost">_ _ _</span></p>
+                <p class="add-info color-w">Gold remainder: <span class="remainder">_ _ _</span></p>
+            </div>
+
+        </div>
+
+        <div class="decisions">
+            <p class="color-w">Do you agree?</p>
+
+            <div class="decision-btns">
+                <button class="btn btn-yes">I agree</button>
+                <button class="btn btn-no">No, thanks</button>
+            </div>
+
+        </div>
+
+        <div class="modal"> <!-- modal open -->
+            <div class="modal-info">
+                <button class="modal-close">X</button>
+                <p class="modal-info-text color-w">Какое-то сообщение пользователю после нажатия кнопки согласия/ несогласия</p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
