@@ -33,6 +33,35 @@ h1 {
     font-size: 26px;
 }
 
+/* running line*/
+.status {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid #FFD700;
+    border-bottom: 1px solid #FFD700;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+p.status-text {
+    font-size: 12px;
+    color: #FFD700;
+    white-space: nowrap;
+    transform: translateX(90%);
+    animation-name: run;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes run {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-650px);}
+}
+
+/* running line end */
+
 .description {
     text-align: left;
     line-height: 1.5;
